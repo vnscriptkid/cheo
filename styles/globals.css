@@ -345,3 +345,7 @@ ol {
   left: 10%;
   transform: translateY(-50%); */
 }
+
+.slider-img {
+  height: 300px;
+}

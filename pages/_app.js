@@ -1,6 +1,5 @@
 import Header from "../components/Header";
 import Script from "next/script";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "react-multi-carousel/lib/styles.css";
 import "../styles/globals.css";
 
