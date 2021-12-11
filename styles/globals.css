@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 p {
@@ -20,23 +20,23 @@ a {
   color: #333;
 }
 
-img {
+/* img {
   width: 100%;
   border-radius: 10px;
-}
+} */
 
-header {
+/* header {
   background: steelblue;
   color: #fff;
   padding: 5px;
   margin-bottom: 40px;
-}
+} */
 
-header a {
+/* header a {
   color: #fff;
-}
+} */
 
-.container {
+/* .container {
   max-width: 768px;
   margin: auto;
   overflow: auto;
@@ -54,9 +54,9 @@ header a {
   text-decoration: none;
   font-size: 15px;
   font-family: inherit;
-}
+} */
 
-.btn:focus {
+/* .btn:focus {
   outline: none;
 }
 
@@ -80,7 +80,7 @@ header a {
 .card {
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
 .card-page {
@@ -95,15 +95,15 @@ header a {
   background: #f4f4f4;
   margin-bottom: 20px;
   padding: 3px 10px;
-}
+} */
 
-.post-body ul,
+/* .post-body ul,
 ol {
   font-size: 110%;
   line-height: 2.3;
   font-weight: bold;
   margin: 10px 0;
-}
+} */
 
 .post-body pre {
   background: #f4f4f4;
@@ -116,4 +116,232 @@ ol {
   .posts {
     grid-template-columns: 1fr;
   }
+}
+
+/* my style */
+.bg-image {
+  /* Full height */
+  height: 75vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Images used */
+.img1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url("/images/mu-cang-chai/_DSC0094.jpg");
+}
+.img2 {
+  background-image: url("/images/mu-cang-chai/_DSC0098.jpg");
+}
+.img3 {
+  background-image: url("/images/mu-cang-chai/_DSC0104.jpg");
+}
+.img4 {
+  background-image: url("/images/mu-cang-chai/_DSC0110.jpg");
+}
+.img5 {
+  background-image: url("/images/mu-cang-chai/_DSC0115.jpg");
+}
+.img6 {
+  background-image: url("/images/mu-cang-chai/_DSC0190.jpg");
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 768px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  color: white;
+  padding: 2rem;
+  z-index: 1;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.actions-list {
+  list-style: none;
+  display: flex;
+}
+
+.action-list-item {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.action-list-item:hover {
+  transform: scale(1.1);
+}
+
+/* BANNER */
+.banner {
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.banner-header {
+  font-size: 3rem;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ABOUT */
+.about {
+  padding: 3rem 3rem;
+}
+
+/* HOME */
+.home {
+  overflow: hidden;
+}
+
+.home-slider {
+  display: flex;
+  height: 100vh;
+}
+
+.home-slider-item {
+  cursor: pointer;
+}
+
+.home-slider-img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.home-slider-img:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.home-slider-img-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/images/mu-cang-chai/_DSC0094.jpg");
+}
+
+.home-slider-img-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/images/mu-cang-chai/_DSC0430.jpg");
+}
+
+.home-slider-img-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/images/mu-cang-chai/_DSC0115.jpg");
+}
+
+.home-slider-img-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/images/mu-cang-chai/_DSC0190.jpg");
+}
+
+.home-slider-img-5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("/images/mu-cang-chai/_DSC0200.jpg");
+}
+
+.home-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+}
+
+.home-text {
+  padding: 0 3rem;
+}
+
+.home-text-middle {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  color: white;
+  text-align: center;
+}
+
+.home-text-heading {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.home-text-desc {
+  font-size: 1rem;
+}
+
+.home-text-bottom {
+  color: white;
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+  width: 100%;
+  font-weight: bolder;
+}
+
+/* /images/mu-cang-chai/_DSC0104.jpg
+/images/mu-cang-chai/_DSC0110.jpg
+/images/mu-cang-chai/_DSC0115.jpg
+/images/mu-cang-chai/_DSC0190.jpg
+/images/mu-cang-chai/_DSC0200.jpg */
+.love {
+  color: #ff5f56;
+}
+
+.hanoi {
+  color: blue;
+}
+
+#map {
+  width: 300px;
+  margin-left: 5rem;
+  /* position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%); */
 }
