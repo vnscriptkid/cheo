@@ -16,3 +16,7 @@ npm run dev
 # Build for prod and export static website
 npm run build
 ```
+
+## Ref:
+
+- https://dev.to/jameswallis/deploying-a-next-js-app-to-github-pages-24pn
