@@ -132,22 +132,22 @@ ol {
 /* Images used */
 .img1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
-    url("/images/mu-cang-chai/_DSC0094.jpg");
+    url("images/mu-cang-chai/_DSC0094.jpg");
 }
 .img2 {
-  background-image: url("/images/mu-cang-chai/_DSC0098.jpg");
+  background-image: url("images/mu-cang-chai/_DSC0098.jpg");
 }
 .img3 {
-  background-image: url("/images/mu-cang-chai/_DSC0104.jpg");
+  background-image: url("images/mu-cang-chai/_DSC0104.jpg");
 }
 .img4 {
-  background-image: url("/images/mu-cang-chai/_DSC0110.jpg");
+  background-image: url("images/mu-cang-chai/_DSC0110.jpg");
 }
 .img5 {
-  background-image: url("/images/mu-cang-chai/_DSC0115.jpg");
+  background-image: url("images/mu-cang-chai/_DSC0115.jpg");
 }
 .img6 {
-  background-image: url("/images/mu-cang-chai/_DSC0190.jpg");
+  background-image: url("images/mu-cang-chai/_DSC0190.jpg");
 }
 
 /* Position text in the middle of the page/image */
@@ -255,27 +255,27 @@ ol {
 
 .home-slider-img-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/images/mu-cang-chai/_DSC0094.jpg");
+    url("images/mu-cang-chai/_DSC0094.jpg");
 }
 
 .home-slider-img-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/images/mu-cang-chai/_DSC0430.jpg");
+    url("images/mu-cang-chai/_DSC0430.jpg");
 }
 
 .home-slider-img-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/images/mu-cang-chai/_DSC0115.jpg");
+    url("images/mu-cang-chai/_DSC0115.jpg");
 }
 
 .home-slider-img-4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/images/mu-cang-chai/_DSC0190.jpg");
+    url("images/mu-cang-chai/_DSC0190.jpg");
 }
 
 .home-slider-img-5 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/images/mu-cang-chai/_DSC0200.jpg");
+    url("images/mu-cang-chai/_DSC0200.jpg");
 }
 
 .home-content {
@@ -324,11 +324,11 @@ ol {
   font-weight: bolder;
 }
 
-/* /images/mu-cang-chai/_DSC0104.jpg
-/images/mu-cang-chai/_DSC0110.jpg
-/images/mu-cang-chai/_DSC0115.jpg
-/images/mu-cang-chai/_DSC0190.jpg
-/images/mu-cang-chai/_DSC0200.jpg */
+/* images/mu-cang-chai/_DSC0104.jpg
+images/mu-cang-chai/_DSC0110.jpg
+images/mu-cang-chai/_DSC0115.jpg
+images/mu-cang-chai/_DSC0190.jpg
+images/mu-cang-chai/_DSC0200.jpg */
 .love {
   color: #ff5f56;
 }

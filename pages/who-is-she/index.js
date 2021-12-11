@@ -124,28 +124,28 @@ const ImageSlider = () => (
     <div>
       <img
         className="d-block w-100 slider-img"
-        src="/images/mu-cang-chai/_DSC0110.jpg"
+        src="images/mu-cang-chai/_DSC0110.jpg"
         alt="Second slide"
       />
     </div>
     <div>
       <img
         className="d-block w-100 slider-img"
-        src="/images/mu-cang-chai/_DSC0115.jpg"
+        src="images/mu-cang-chai/_DSC0115.jpg"
         alt="Third slide"
       />
     </div>
     <div>
       <img
         className="d-block w-100 slider-img"
-        src="/images/mu-cang-chai/_DSC0190.jpg"
+        src="images/mu-cang-chai/_DSC0190.jpg"
         alt="Third slide"
       />
     </div>
     <div>
       <img
         className="d-block w-100 slider-img"
-        src="/images/mu-cang-chai/_DSC0200.jpg"
+        src="images/mu-cang-chai/_DSC0200.jpg"
         alt="Third slide"
       />
     </div>
