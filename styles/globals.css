@@ -233,10 +233,10 @@ ol {
   background-position: center;
 }
 
-.home-slider-img:hover {
+/* .home-slider-img:hover {
   transform: scale(1.2);
   transition: all 0.5s ease-in-out;
-}
+} */
 
 .home-slider-img-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -324,8 +324,11 @@ ol {
 }
 
 #map {
-  width: 300px;
-  margin-left: 5rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  /* margin-left: 5rem; */
   /* position: absolute;
   top: 50%;
   left: 10%;
