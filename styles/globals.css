@@ -230,6 +230,7 @@ ol {
   height: 100%;
   width: 100%;
   background-size: cover;
+  background-position: center;
 }
 
 .home-slider-img:hover {
@@ -239,7 +240,7 @@ ol {
 
 .home-slider-img-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/cheo/images/mu-cang-chai/_DSC0094.jpg");
+    url("/cheo/images/mu-cang-chai/_DSC0636.jpg");
 }
 
 .home-slider-img-2 {
@@ -249,17 +250,18 @@ ol {
 
 .home-slider-img-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/cheo/images/mu-cang-chai/_DSC0115.jpg");
+    url("/cheo/images/mu-cang-chai/_DSC0674.jpg");
 }
 
 .home-slider-img-4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/cheo/images/mu-cang-chai/_DSC0190.jpg");
+    url("/cheo/images/main_4.jpg");
+  background-position: bottom 0 right 30%;
 }
 
 .home-slider-img-5 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/cheo/images/mu-cang-chai/_DSC0200.jpg");
+    url("/cheo/images/main_5.jpg");
 }
 
 .home-content {
