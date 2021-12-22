@@ -3,13 +3,17 @@ import path from "path";
 import matter from "gray-matter";
 import { sortByDate } from "../utils";
 import VietnameMap from "../components/VietnamMap";
+import Router from "next/router";
 
 export default function Home({}) {
   return (
     <>
       <div className="home">
         <div className="home-slider">
-          <div className="home-slider-item home-slider-img home-slider-img-1">
+          <div
+            className="home-slider-item home-slider-img home-slider-img-1"
+            onClick={() => Router.push("/about")}
+          >
             <div id="map">
               <VietnameMap />
             </div>

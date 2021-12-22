@@ -7,6 +7,7 @@ const cityMapping = {
 const VietnameMap = () => {
   const handleClick = (e) => {
     // console.log("hover: ", { e: e.target.id });
+    e.stopPropagation();
     Router.push("/who-is-she");
   };
   return (
