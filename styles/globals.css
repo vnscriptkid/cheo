@@ -1,4 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@500&display=swap");
+
+/* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> */
+/* <link href="" rel="stylesheet"> */
 
 * {
   box-sizing: border-box;
@@ -7,7 +13,8 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Quicksand", sans-serif;
 }
 
 p {
@@ -245,24 +252,25 @@ ol {
 
 .home-slider-img-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/cheo/images/mu-cang-chai/_DSC0430.jpg");
+    url("/cheo/images/char/char_left.jpg");
 }
 
 .home-slider-img-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/cheo/images/mu-cang-chai/_DSC0674.jpg");
+    url("/cheo/images/char/char_middle.jpg");
+  background-position: bottom 0 right 30%;
 }
 
 .home-slider-img-4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/cheo/images/main_4.jpg");
+    url("/cheo/images/char/char_right.jpg");
   background-position: bottom 0 right 30%;
 }
 
-.home-slider-img-5 {
+/* .home-slider-img-5 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("/cheo/images/main_5.jpg");
-}
+} */
 
 .home-content {
   position: absolute;
@@ -317,6 +325,10 @@ ol {
 /cheo/images/mu-cang-chai/_DSC0200.jpg */
 .love {
   color: #ff5f56;
+}
+
+.love--small {
+  font-size: 20px;
 }
 
 .hanoi {

@@ -21,7 +21,7 @@ export default function Home({}) {
           <div className="home-slider-item home-slider-img home-slider-img-2"></div>
           <div className="home-slider-item home-slider-img home-slider-img-3"></div>
           <div className="home-slider-item home-slider-img home-slider-img-4"></div>
-          <div className="home-slider-item home-slider-img home-slider-img-5"></div>
+          {/* <div className="home-slider-item home-slider-img home-slider-img-5"></div> */}
         </div>
         <div
           className="text-center"
