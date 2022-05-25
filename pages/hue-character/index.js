@@ -3,6 +3,8 @@
 
 import { useState } from "react";
 import Carousel from "react-multi-carousel";
+import ReactAudioPlayer from "react-audio-player";
+
 // import sample from "../../public/videos/duongvao.mp4";
 
 // export default function Article({}) {
@@ -409,6 +411,15 @@ export default function Home({}) {
 
   return (
     <>
+      {/* <ReactAudioPlayer
+        src="/cheo/audios/loa_phat_thanh.m4a"
+        autoPlay={true}
+        controls
+        loop={true}
+      /> */}
+      <audio controls autoPlay={true}>
+        <source src="/cheo/audios/loa_phat_thanh.m4a" type="audio/ogg" />
+      </audio>
       <div style={{ position: "fixed", right: 10, top: 10, zIndex: 100 }}>
         <span
           style={{ cursor: "pointer", marginRight: 5 }}
