@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { LanguagePicker } from "../shared/LanguagePicker";
+import LanguagePicker from "../shared/LanguagePicker";
 
 const ImageWithText = ({
   url = "",

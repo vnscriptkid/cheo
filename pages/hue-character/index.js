@@ -4,7 +4,7 @@
 import { useState } from "react";
 import Carousel from "react-multi-carousel";
 import ReactAudioPlayer from "react-audio-player";
-import { LanguagePicker } from "../shared/LanguagePicker";
+import LanguagePicker from "../shared/LanguagePicker";
 
 // import sample from "../../public/videos/duongvao.mp4";
 

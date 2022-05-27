@@ -1,4 +1,4 @@
-export const LanguagePicker = ({ onVnClick, onEnClick }) => {
+const LanguagePicker = ({ onVnClick, onEnClick }) => {
   return (
     <div style={{ position: "fixed", right: 10, top: 10, zIndex: 100 }}>
       <span
@@ -23,3 +23,5 @@ export const LanguagePicker = ({ onVnClick, onEnClick }) => {
     </div>
   );
 };
+
+export default LanguagePicker;
