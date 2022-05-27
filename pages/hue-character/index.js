@@ -4,6 +4,7 @@
 import { useState } from "react";
 import Carousel from "react-multi-carousel";
 import ReactAudioPlayer from "react-audio-player";
+import { LanguagePicker } from "../shared/LanguagePicker";
 
 // import sample from "../../public/videos/duongvao.mp4";
 
@@ -420,33 +421,10 @@ export default function Home({}) {
       <audio controls autoPlay={true}>
         <source src="/cheo/audios/loa_phat_thanh.m4a" type="audio/ogg" />
       </audio>
-      <div style={{ position: "fixed", right: 10, top: 10, zIndex: 100 }}>
-        <span
-          style={{ cursor: "pointer", marginRight: 5 }}
-          onClick={() => setLang("en")}
-        >
-          <img
-            src="https://flagicons.lipis.dev/flags/4x3/um.svg"
-            alt="usa"
-            width="30px"
-            height="30px"
-          />
-        </span>
-        <span style={{ cursor: "pointer" }} onClick={() => setLang("vi")}>
-          <img
-            src="https://flagicons.lipis.dev/flags/4x3/vn.svg"
-            alt="vietnam"
-            width="30px"
-            height="30px"
-          />
-        </span>
-        {/* <select>
-          <option>Vietnamese</option>
-          <option>English</option>
-        </select> */}
-      </div>
-      {/* <Header /> */}
-      {/* <Banner /> */}
+      <LanguagePicker
+        onEnClick={() => setLang("en")}
+        onVnClick={() => setLang("vn")}
+      />
       <div
         style={{ position: "relative", textAlign: "center", color: "white" }}
       >
