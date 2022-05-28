@@ -1,4 +1,4 @@
-// import img from "../../public/images/mu-cang-chai/_DSC0094-min.jpg";
+// import img from "../../public/images/mu-cang-chai/_DSC0094-min.JPG";
 // import style from "./style.scss";
 
 import { useState } from "react";
@@ -11,7 +11,7 @@ import LanguagePicker from "../shared/LanguagePicker";
 // export default function Article({}) {
 //   return (
 //     <>
-//       {/* <img src="images/mu-cang-chai/_DSC0094-min.jpg" alt="image-1" /> */}
+//       {/* <img src="images/mu-cang-chai/_DSC0094-min.JPG" alt="image-1" /> */}
 //       <div className="bg-image img1"></div>
 //       <div className="bg-image img2"></div>
 //       <div className="bg-image img3"></div>
@@ -76,8 +76,9 @@ const About = ({ lang }) => {
 
       <img
         width="100%"
-        src={"/cheo/images/hue-story/13_fullscreen-min.jpg"}
+        src={"/cheo/images/hue-story/13_fullscreen-min.JPG"}
         alt="opening"
+        // style={{ verticalAlign: "middle" }}
       />
 
       <p style={{ padding: "0 300px" }}>
@@ -236,7 +237,7 @@ const About = ({ lang }) => {
 
       <img
         style={{ width: "100%" }}
-        src="images/hue-story/11-min.jpg"
+        src="images/hue-story/11-min.JPG"
         alt="11"
       />
 
@@ -299,7 +300,7 @@ const About = ({ lang }) => {
       </div>
       <img
         style={{ width: "100%" }}
-        src="images/hue-story/14_fullscreen-min.jpg"
+        src="images/hue-story/14_fullscreen-min.JPG"
         alt="14"
       />
       <div style={{ display: "flex" }}>
@@ -351,60 +352,6 @@ const responsive = {
   },
 };
 
-const ImageSlider = () => (
-  <Carousel
-    swipeable={false}
-    draggable={false}
-    showDots={true}
-    infinite={true}
-    responsive={responsive}
-    autoPlaySpeed={1000}
-    keyBoardControl={true}
-    customTransition="all .5"
-    transitionDuration={500}
-    containerClass="carousel-container"
-    removeArrowOnDeviceType={["tablet", "mobile"]}
-    dotListClass="custom-dot-list-style"
-    itemClass="carousel-item-padding-40-px"
-  >
-    <div>
-      <img
-        className="d-block w-100 slider-img"
-        src="images/mu-cang-chai/_DSC0104-min.jpg"
-        alt="First slide"
-      />
-    </div>
-    <div>
-      <img
-        className="d-block w-100 slider-img"
-        src="images/mu-cang-chai/_DSC0110-min.jpg"
-        alt="Second slide"
-      />
-    </div>
-    <div>
-      <img
-        className="d-block w-100 slider-img"
-        src="images/mu-cang-chai/_DSC0115-min.jpg"
-        alt="Third slide"
-      />
-    </div>
-    <div>
-      <img
-        className="d-block w-100 slider-img"
-        src="images/mu-cang-chai/_DSC0190-min.jpg"
-        alt="Third slide"
-      />
-    </div>
-    <div>
-      <img
-        className="d-block w-100 slider-img"
-        src="images/mu-cang-chai/_DSC0200-min.jpg"
-        alt="Third slide"
-      />
-    </div>
-  </Carousel>
-);
-
 export default function Home({}) {
   const [lang, setLang] = useState("en"); // vi || en
 
@@ -412,12 +359,6 @@ export default function Home({}) {
 
   return (
     <>
-      {/* <ReactAudioPlayer
-        src="/cheo/audios/loa_phat_thanh.m4a"
-        autoPlay={true}
-        controls
-        loop={true}
-      /> */}
       <audio controls autoPlay={true}>
         <source src="/cheo/audios/loa_phat_thanh.m4a" type="audio/ogg" />
       </audio>
@@ -430,8 +371,9 @@ export default function Home({}) {
       >
         <img
           width="100%"
-          src={"/cheo/images/hue-story/opening-min.jpg"}
+          src={"/cheo/images/hue-story/opening-min.JPG"}
           alt="opening"
+          style={{ verticalAlign: "middle" }}
         />
         <h1
           style={{
