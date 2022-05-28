@@ -180,12 +180,12 @@ const About = ({ lang }) => {
       </p>
 
       <img
-        style={{ width: "100%" }}
+        style={{ width: "100%", verticalAlign: "middle" }}
         src="images/hue-story/1.1-min.JPG"
         alt="1.1"
       />
       <img
-        style={{ width: "100%" }}
+        style={{ width: "100%", verticalAlign: "middle" }}
         src="images/hue-story/5.1-min.JPG"
         alt="5.1"
       />
@@ -209,7 +209,17 @@ const About = ({ lang }) => {
         bão, cả gia đình mới dám về nhà.`}
       </p>
 
-      <img style={{ width: "100%" }} src="images/hue-story/4-min.JPG" alt="4" />
+      <div>
+        <audio controls autoPlay={false} style={{ position: "absolute" }}>
+          <source src="/cheo/audios/loa_phat_thanh.m4a" type="audio/ogg" />
+        </audio>
+        <img
+          style={{ width: "100%", verticalAlign: "middle" }}
+          src="images/hue-story/4-min.JPG"
+          alt="4"
+        />
+        {/* <img width="100%" src={"/cheo/images/yen_bai/6.jpg"} alt="6" /> */}
+      </div>
       <div style={{ display: "flex" }}>
         <img
           style={{ width: "50%" }}
@@ -299,7 +309,7 @@ const About = ({ lang }) => {
         />
       </div>
       <img
-        style={{ width: "100%" }}
+        style={{ width: "100%", verticalAlign: "middle" }}
         src="images/hue-story/14_fullscreen-min.JPG"
         alt="14"
       />
@@ -355,7 +365,7 @@ const responsive = {
 export default function Home({}) {
   const [lang, setLang] = useState("en"); // vi || en
 
-  console.log({ lang });
+  const isEnglish = lang === "en";
 
   return (
     <>
@@ -399,7 +409,7 @@ export default function Home({}) {
             fontSize: 50,
           }}
         >
-          Nam Đông - Huế
+          {isEnglish ? "Nam Dong - Hue" : "Nam Đông - Huế"}
         </h2>
       </div>
 
