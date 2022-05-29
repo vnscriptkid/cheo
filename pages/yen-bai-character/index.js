@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Banner from "../shared/Banner";
+import Header from "../shared/Header";
 import LanguagePicker from "../shared/LanguagePicker";
 
 const Body = ({ lang }) => {
@@ -152,65 +154,68 @@ export default function Home({}) {
 
   return (
     <>
-      <LanguagePicker
+      <Header
+        isEnglish={isEnglish}
         onEnClick={() => setLang("en")}
         onVnClick={() => setLang("vn")}
       />
-      <Banner isEnglish={isEnglish} />
+
+      {/* <img width="100%" src={"/cheo/images/yen_bai/bia.jpg"} alt="opening" />*/}
+      <Banner
+        url={`/cheo/images/yen_bai/bia.jpg`}
+        isEnglish={isEnglish}
+        enText={"Mu Cang Chai - Yen Bai"}
+        viText={"Mù Cang Chải - Yên Bái"}
+      />
 
       <video width="100%" className="videoTag" autoPlay loop muted>
         <source src={"/cheo/videos/yen_bai/open.mp4"} type="video/mp4" />
       </video>
-
-      {/* <video width="100%" className="videoTag" autoPlay loop muted>
-        <source src={"/cheo/videos/hue_opening_small.mp4"} type="video/mp4" />
-      </video> */}
 
       <Body lang={lang} />
 
       <video width="100%" className="videoTag" autoPlay loop muted>
         <source src={"/cheo/videos/yen_bai/end.mp4"} type="video/mp4" />
       </video>
-      {/* <ImageSlider /> */}
     </>
   );
 }
 
-const Banner = ({ isEnglish }) => (
-  <div
-    style={{
-      position: "relative",
-      textAlign: "center",
-      color: "white",
-    }}
-  >
-    <img
-      width="100%"
-      src={"/cheo/images/yen_bai/bia.jpg"}
-      alt="opening"
-      style={{ verticalAlign: "middle" }}
-    />
-    <h1
-      style={{
-        position: "absolute",
-        top: "5%",
-        left: "50%",
-        transform: "translate(-50%, -50%)",
-        fontSize: 30,
-        fontFamily: "'Dancing Script', cursive",
-      }}
-    ></h1>
+// const Banner = ({ isEnglish }) => (
+//   <div
+//     style={{
+//       position: "relative",
+//       textAlign: "center",
+//       color: "white",
+//     }}
+//   >
+//     <img
+//       width="100%"
+//       src={"/cheo/images/yen_bai/bia.jpg"}
+//       alt="opening"
+//       style={{ verticalAlign: "middle" }}
+//     />
+//     <h1
+//       style={{
+//         position: "absolute",
+//         top: "5%",
+//         left: "50%",
+//         transform: "translate(-50%, -50%)",
+//         fontSize: 30,
+//         fontFamily: "'Dancing Script', cursive",
+//       }}
+//     ></h1>
 
-    <h2
-      style={{
-        position: "absolute",
-        top: "40%",
-        left: "50%",
-        transform: "translate(-50%, -50%)",
-        fontSize: 50,
-      }}
-    >
-      {isEnglish ? "Mu Cang Chai - Yen Bai" : "Mù Cang Chải - Yên Bái"}
-    </h2>
-  </div>
-);
+//     <h2
+//       style={{
+//         position: "absolute",
+//         top: "40%",
+//         left: "50%",
+//         transform: "translate(-50%, -50%)",
+//         fontSize: 50,
+//       }}
+//     >
+//       {isEnglish ? "Mu Cang Chai - Yen Bai" : "Mù Cang Chải - Yên Bái"}
+//     </h2>
+//   </div>
+// );

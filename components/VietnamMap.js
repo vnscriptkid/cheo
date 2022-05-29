@@ -1,12 +1,5 @@
 import Router from "next/router";
 
-// const cityMapping = {
-//   "VN-09": "lang-son",
-//   "VN-26": "hue",
-//   "VN-09": "lang-son",
-//   "VN-09": "lang-son",
-// };
-
 const cities = {
   yenBai: "VN-06",
   hue: "VN-26",

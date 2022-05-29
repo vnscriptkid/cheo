@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Header from "../shared/Header";
 import LanguagePicker from "../shared/LanguagePicker";
 
 const ImageWithText = ({
@@ -48,9 +49,10 @@ const About = () => {
 
   return (
     <>
-      <LanguagePicker
+      <Header
+        isEnglish={isEnglish}
         onEnClick={() => setLang("en")}
-        onVnClick={() => setLang("vi")}
+        onVnClick={() => setLang("vn")}
       />
 
       {isEnglish ? (
@@ -333,8 +335,6 @@ const About = () => {
         />
       )}
     </>
-
-    // <p>{``}</p>
   );
 };
 

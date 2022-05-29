@@ -1,64 +1,12 @@
-// import img from "../../public/images/mu-cang-chai/_DSC0094-min.JPG";
-// import style from "./style.scss";
-
 import { useState } from "react";
-import Carousel from "react-multi-carousel";
-import ReactAudioPlayer from "react-audio-player";
-import LanguagePicker from "../shared/LanguagePicker";
-
-// import sample from "../../public/videos/duongvao.mp4";
-
-// export default function Article({}) {
-//   return (
-//     <>
-//       {/* <img src="images/mu-cang-chai/_DSC0094-min.JPG" alt="image-1" /> */}
-//       <div className="bg-image img1"></div>
-//       <div className="bg-image img2"></div>
-//       <div className="bg-image img3"></div>
-//       <div className="bg-image img4"></div>
-//       <div className="bg-image img5"></div>
-//       <div className="bg-image img6"></div>
-
-//       <div className="bg-text">TEXT</div>
-//     </>
-//   );
-// }
-
-// const Header = () => {
-//   return (
-//     <header className="header">
-//       <span className="logo">Who is she?</span>
-//       <ul className="actions-list">
-//         <li className="action-list-item">About</li>
-//         <li className="action-list-item">Showcase</li>
-//         <li className="action-list-item">More</li>
-//       </ul>
-//     </header>
-//   );
-// };
-
-const Banner = () => {
-  return (
-    <div className="bg-image img1 banner">
-      <div className="banner-content">
-        {/* <h1 className="banner-header">Hue char?</h1>
-        <p className="banner-desc">
-          ProPublica and The New York Times Magazine, with support from the
-          Pulitzer Center, have for the first time modeled how climate refugees
-          might move across international borders. This is what we found.
-        </p> */}
-      </div>
-    </div>
-  );
-};
+import Banner from "../shared/Banner";
+import Header from "../shared/Header";
 
 const About = ({ lang }) => {
   const isEnglish = lang === "en";
 
   return (
     <div className="">
-      {/* <h2>Who is she? </h2> */}
-
       <p style={{ padding: "0 300px" }}>
         {isEnglish
           ? `For this morning’s early autumn rain, the sun was blessing us with lowered light softer than usual. Thu’s steps quickened despite the full load of firewood burdening her shoulder. Thu’s sister-in-law walked before her, her steps steady as she crossed the streambed, trying to make her way through before dusk. Suddenly the whirlpool intensified, and its currents grew more rapid. Thu looked far beyond, trying to figure out what could be the matter. Her sister-in-law turned to her, “The hydropower plant is draining! Hurry up! It’s getting dangerous.” Not so long after, the water rose to above their knees, then higher, and soon reached her waists. Thu was worried though she had been in this situation before. Their feet scurried, making stumbling on sharp rocks unavoidable.`
@@ -78,7 +26,6 @@ const About = ({ lang }) => {
         width="100%"
         src={"/cheo/images/hue-story/13_fullscreen-min.JPG"}
         alt="opening"
-        // style={{ verticalAlign: "middle" }}
       />
 
       <p style={{ padding: "0 300px" }}>
@@ -368,46 +315,17 @@ export default function Home({}) {
 
   return (
     <>
-      <LanguagePicker
+      <Header
+        isEnglish={isEnglish}
         onEnClick={() => setLang("en")}
         onVnClick={() => setLang("vn")}
       />
-      <div
-        style={{ position: "relative", textAlign: "center", color: "white" }}
-      >
-        <img
-          width="100%"
-          src={"/cheo/images/hue-story/opening-min.JPG"}
-          alt="opening"
-          style={{ verticalAlign: "middle" }}
-        />
-        <h1
-          style={{
-            position: "absolute",
-            top: "5%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
-            fontSize: 30,
-            fontFamily: "'Dancing Script', cursive",
-          }}
-        >
-          <span className="love love--small">&#9829;</span>
-          Future Rising Fellowship
-          <span className="love love--small">&#9829;</span>
-        </h1>
-
-        <h2
-          style={{
-            position: "absolute",
-            top: "40%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
-            fontSize: 50,
-          }}
-        >
-          {isEnglish ? "Nam Dong - Hue" : "Nam Đông - Huế"}
-        </h2>
-      </div>
+      <Banner
+        url={`/cheo/images/hue-story/opening-min.JPG`}
+        isEnglish={isEnglish}
+        enText={"Nam Dong - Hue"}
+        viText={"Nam Đông - Huế"}
+      />
 
       <video width="100%" className="videoTag" autoPlay loop muted>
         <source src={"/cheo/videos/hue_opening_small.mp4"} type="video/mp4" />
@@ -418,7 +336,6 @@ export default function Home({}) {
       <video width="100%" className="videoTag" autoPlay loop muted>
         <source src={"/cheo/videos/hue_ending_small.mp4"} type="video/mp4" />
       </video>
-      {/* <ImageSlider /> */}
     </>
   );
 }

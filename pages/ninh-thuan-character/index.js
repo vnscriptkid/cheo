@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Banner from "../shared/Banner";
+import Header from "../shared/Header";
 import LanguagePicker from "../shared/LanguagePicker";
 
 const Body = ({ lang }) => {
@@ -320,11 +322,18 @@ export default function Home({}) {
 
   return (
     <>
-      <LanguagePicker
+      <Header
+        isEnglish={isEnglish}
         onEnClick={() => setLang("en")}
         onVnClick={() => setLang("vn")}
       />
-      <Banner isEnglish={isEnglish} />
+
+      <Banner
+        url={`/cheo/images/ninh-thuan/08-min.jpg`}
+        isEnglish={isEnglish}
+        enText={"Phuoc Binh - Ninh Thuan"}
+        viText={"Phước Bình - Ninh Thuận"}
+      />
 
       <video width="100%" className="videoTag" autoPlay loop muted>
         <source src={"/cheo/videos/ninh-thuan/open.mp4"} type="video/mp4" />
@@ -339,41 +348,41 @@ export default function Home({}) {
   );
 }
 
-const Banner = ({ isEnglish }) => (
-  <div
-    style={{
-      position: "relative",
-      textAlign: "center",
-      color: "white",
-    }}
-  >
-    <img
-      width="100%"
-      src={"/cheo/images/ninh-thuan/08-min.jpg"}
-      alt="opening"
-      style={{ verticalAlign: "middle" }}
-    />
-    <h1
-      style={{
-        position: "absolute",
-        top: "5%",
-        left: "50%",
-        transform: "translate(-50%, -50%)",
-        fontSize: 30,
-        fontFamily: "'Dancing Script', cursive",
-      }}
-    ></h1>
+// const Banner = ({ isEnglish }) => (
+//   <div
+//     style={{
+//       position: "relative",
+//       textAlign: "center",
+//       color: "white",
+//     }}
+//   >
+//     <img
+//       width="100%"
+//       src={"/cheo/images/ninh-thuan/08-min.jpg"}
+//       alt="opening"
+//       style={{ verticalAlign: "middle" }}
+//     />
+//     <h1
+//       style={{
+//         position: "absolute",
+//         top: "5%",
+//         left: "50%",
+//         transform: "translate(-50%, -50%)",
+//         fontSize: 30,
+//         fontFamily: "'Dancing Script', cursive",
+//       }}
+//     ></h1>
 
-    <h2
-      style={{
-        position: "absolute",
-        top: "40%",
-        left: "50%",
-        transform: "translate(-50%, -50%)",
-        fontSize: 50,
-      }}
-    >
-      {isEnglish ? "Mu Cang Chai - Yen Bai" : "Mù Cang Chải - Yên Bái"}
-    </h2>
-  </div>
-);
+//     <h2
+//       style={{
+//         position: "absolute",
+//         top: "40%",
+//         left: "50%",
+//         transform: "translate(-50%, -50%)",
+//         fontSize: 50,
+//       }}
+//     >
+//       {isEnglish ? "Mu Cang Chai - Yen Bai" : "Mù Cang Chải - Yên Bái"}
+//     </h2>
+//   </div>
+// );

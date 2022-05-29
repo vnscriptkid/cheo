@@ -14,7 +14,7 @@ export default function Home({}) {
             className="home-slider-item home-slider-img home-slider-img-1"
             onClick={() => Router.push("/about")}
           >
-            <div id="map">
+            <div id="map" style={{ padding: 20 }}>
               <VietnameMap />
             </div>
           </div>
