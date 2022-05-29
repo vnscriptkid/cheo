@@ -21,8 +21,8 @@ const Body = ({ lang }) => {
       </p>
 
       <div style={{ display: "flex" }}>
-        <img style={{ width: "50%" }} src="images/yen_bai/2.1.JPG" alt="3.1" />
-        <img style={{ width: "50%" }} src="images/yen_bai/2.2.JPG" alt="3.2" />
+        <img style={{ width: "50%" }} src="images/yen_bai/2.1.jpg" alt="3.1" />
+        <img style={{ width: "50%" }} src="images/yen_bai/2.2.jpg" alt="3.2" />
       </div>
 
       <p style={{ padding: "0 300px" }}>
@@ -32,8 +32,8 @@ const Body = ({ lang }) => {
       </p>
 
       <div style={{ display: "flex" }}>
-        <img style={{ width: "50%" }} src="images/yen_bai/3.1.JPG" alt="3.1" />
-        <img style={{ width: "50%" }} src="images/yen_bai/3.2.JPG" alt="3.2" />
+        <img style={{ width: "50%" }} src="images/yen_bai/3.1.jpg" alt="3.1" />
+        <img style={{ width: "50%" }} src="images/yen_bai/3.2.jpg" alt="3.2" />
       </div>
 
       <p style={{ padding: "0 300px" }}>
@@ -43,8 +43,8 @@ const Body = ({ lang }) => {
       </p>
 
       <div style={{ display: "flex" }}>
-        <img style={{ width: "50%" }} src="images/yen_bai/4.1.JPG" alt="4.1" />
-        <img style={{ width: "50%" }} src="images/yen_bai/4.2.JPG" alt="4.2" />
+        <img style={{ width: "50%" }} src="images/yen_bai/4.1.jpg" alt="4.1" />
+        <img style={{ width: "50%" }} src="images/yen_bai/4.2.jpg" alt="4.2" />
       </div>
 
       <p style={{ padding: "0 300px" }}>
@@ -56,17 +56,17 @@ const Body = ({ lang }) => {
       <div style={{ display: "flex" }}>
         <img
           style={{ width: "33.333%" }}
-          src="images/yen_bai/5.1.JPG"
+          src="images/yen_bai/5.1.jpg"
           alt="5.1"
         />
         <img
           style={{ width: "33.333%" }}
-          src="images/yen_bai/5.2.JPG"
+          src="images/yen_bai/5.2.jpg"
           alt="5.2"
         />
         <img
           style={{ width: "33.333%" }}
-          src="images/yen_bai/5.3.JPG"
+          src="images/yen_bai/5.3.jpg"
           alt="5.3"
         />
       </div>
@@ -99,8 +99,8 @@ const Body = ({ lang }) => {
       </p>
 
       <div style={{ display: "flex" }}>
-        <img style={{ width: "50%" }} src="images/yen_bai/8.1.JPG" alt="8.1" />
-        <img style={{ width: "50%" }} src="images/yen_bai/8.2.JPG" alt="8.2" />
+        <img style={{ width: "50%" }} src="images/yen_bai/8.1.jpg" alt="8.1" />
+        <img style={{ width: "50%" }} src="images/yen_bai/8.2.jpg" alt="8.2" />
       </div>
 
       <p style={{ padding: "0 300px" }}>
@@ -120,12 +120,12 @@ const Body = ({ lang }) => {
       <div style={{ display: "flex" }}>
         <img
           style={{ width: "50%" }}
-          src="images/yen_bai/10.1.JPG"
+          src="images/yen_bai/10.1.jpg"
           alt="10.1"
         />
         <img
           style={{ width: "50%" }}
-          src="images/yen_bai/10.2.JPG"
+          src="images/yen_bai/10.2.jpg"
           alt="10.2"
         />
       </div>
