@@ -18,10 +18,18 @@ export default function Home({}) {
               <VietnameMap />
             </div>
           </div>
-          <div className="home-slider-item home-slider-img home-slider-img-2"></div>
-          <div className="home-slider-item home-slider-img home-slider-img-3"></div>
-          <div className="home-slider-item home-slider-img home-slider-img-4"></div>
-          {/* <div className="home-slider-item home-slider-img home-slider-img-5"></div> */}
+          <div
+            className="home-slider-item home-slider-img home-slider-img-2"
+            onClick={() => Router.push(`/yen-bai-character`)}
+          ></div>
+          <div
+            className="home-slider-item home-slider-img home-slider-img-3"
+            onClick={() => Router.push(`/hue-character`)}
+          ></div>
+          <div
+            className="home-slider-item home-slider-img home-slider-img-4"
+            onClick={() => Router.push(`/ninh-thuan-character`)}
+          ></div>
         </div>
         <div
           className="text-center"
