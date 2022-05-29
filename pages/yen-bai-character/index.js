@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Carousel from "react-multi-carousel";
 import LanguagePicker from "../shared/LanguagePicker";
 
 const Body = ({ lang }) => {
