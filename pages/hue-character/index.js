@@ -218,7 +218,6 @@ const About = ({ lang }) => {
           src="images/hue-story/4-min.JPG"
           alt="4"
         />
-        {/* <img width="100%" src={"/cheo/images/yen_bai/6.jpg"} alt="6" /> */}
       </div>
       <div style={{ display: "flex" }}>
         <img
@@ -369,9 +368,6 @@ export default function Home({}) {
 
   return (
     <>
-      <audio controls autoPlay={true}>
-        <source src="/cheo/audios/loa_phat_thanh.m4a" type="audio/ogg" />
-      </audio>
       <LanguagePicker
         onEnClick={() => setLang("en")}
         onVnClick={() => setLang("vn")}
