@@ -158,7 +158,7 @@ const About = ({ lang }) => {
 
       <div>
         <audio controls autoPlay={false} style={{ position: "absolute" }}>
-          <source src="/cheo/audios/loa_phat_thanh.m4a" type="audio/ogg" />
+          <source src="/cheo/audios/hue.m4a" type="audio/ogg" />
         </audio>
         <img
           style={{ width: "100%", verticalAlign: "middle" }}

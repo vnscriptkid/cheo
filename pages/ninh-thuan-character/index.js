@@ -75,7 +75,16 @@ const Body = ({ lang }) => {
           : `Thật khó để bắt người dân Raglai tiếp tục trụ lại ở vùng đất đã từng bảo bọc và yêu thương họ nhiều năm về trước khi mà mọi thứ không còn như xưa. Vẫn biết là sự thay đổi là không thể tránh khỏi trong bất cứ bối cảnh xã hội nào, nhưng lớp lang chồng chất trong sự biến chuyển từ khí hậu, đời sống kinh tế, truyền thống gia đình đan xen vào nhau, càng đẩy nhanh hơn những chuyến đi làm ăn xa nhà. Những chuyến đi mà những người phụ nữ trẻ không nghĩ về  hệ quả xa hơn, mà chỉ đơn thuần mong thoát được cái nghèo bủa vây, để gia đình nhỏ của họ có cuộc sống tốt đẹp hơn. Những dải đất nương rẫy trập trùng, những cánh rừng bạt ngàn đã từng nuôi sống thế hệ ông bà, cha mẹ, giờ đây không còn đủ sức để giữ chân ánh mắt lấp lánh nhưng đượm buồn. Với những người chọn khăn gói đi làm xa lần đầu, chẳng dễ để họ xác định công việc trong nhà máy hay trên nương rẫy dễ dàng hơn. Nhưng ít nhất, xuống đồng bằng với những nhà máy san sát nhau, bắt đầu với mức lương khởi điểm, họ cũng đã kiếm được một khoản thu gấp 4 lần ở nhà nếu chỉ phụ thuộc vào ít chuối, ít bắp trên nương hoặc thấp thỏm lo âu khi mà những rẫy điều, vườn bưởi ảnh hưởng bởi thời tiết thất thường.`}
       </p>
 
-      <img width="100%" src={"/cheo/images/ninh-thuan/03-min.jpg"} alt="01" />
+      <div>
+        <audio controls autoPlay={false} style={{ position: "absolute" }}>
+          <source src="/cheo/audios/ninh-thuan.m4a" type="audio/ogg" />
+        </audio>
+        <img
+          style={{ width: "100%", verticalAlign: "middle" }}
+          src="/cheo/images/ninh-thuan/03-min.jpg"
+          alt="03"
+        />
+      </div>
 
       <p style={{ padding: "0 300px" }}>
         {isEnglish
