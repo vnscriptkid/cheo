@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Header from "../shared/Header";
-import LanguagePicker from "../shared/LanguagePicker";
 
 const ImageWithText = ({
   url = "",
@@ -72,14 +71,6 @@ const About = () => {
           lang="vi"
         />
       )}
-
-      {/* <ImageWithText
-        url="/cheo/images/general/2.JPG"
-        text={`“Who is she?” started as a photo reportage, then has evolved into a
-            multimedia project of storytelling about the impacts of climate change
-            on women under 25 from ethnic minorities in three provinces of Yen
-            Bai, Hue, and Ninh Thuan.`}
-      /> */}
 
       {isEnglish ? (
         <ImageWithText
