@@ -14,7 +14,11 @@ const Body = ({ lang }) => {
           : `Với những ai chưa đến Mù Cang Chải, thị trấn nhỏ này hiện diện trong tâm thức là một vùng núi heo hút vững chãi sau thửa ruộng bậc thang đẹp đến nao lòng. Với những ai đã từng đặt chân đến đây, Mù Cang Chải còn xuyên qua từng khe nắng để vương vấn lại tâm hồn người đi kẻ ở bằng chút không khí se lạnh của núi rừng Tây Bắc và sự trìu mến chất chứa trong ánh mắt người dân bản địa. Không chỉ vậy, vùng đất cao hơn mực nước biển 1000m này còn gắn liền với sự giàu có về khoáng sản, cảnh vật, tài nguyên thiên nhiên. Tuy nhiên, sự giàu có mà thiên nhiên dành tặng không tỷ lệ thuận với sinh kế mà người dân trong thị trấn có được. Mù Cang Chải vẫn phải đối mặt với thách thức trong việc tìm ra kế mưu sinh phù hợp để thoát khỏi chỗ đứng trong bảng xếp hạng những vùng nghèo nhất nước. `}
       </p>
 
-      <img width="100%" src={"/cheo/images/yen_bai/1.jpg"} alt="opening" />
+      <img
+        width="100%"
+        src={"/cheo/images/yen_bai/final/1.jpg"}
+        alt="opening"
+      />
 
       <p style={{ padding: "0 300px" }}>
         {isEnglish
@@ -23,8 +27,16 @@ const Body = ({ lang }) => {
       </p>
 
       <div style={{ display: "flex" }}>
-        <img style={{ width: "50%" }} src="images/yen_bai/2.1.jpg" alt="3.1" />
-        <img style={{ width: "50%" }} src="images/yen_bai/2.2.jpg" alt="3.2" />
+        <img
+          style={{ width: "50%" }}
+          src="images/yen_bai/final/2.1.jpg"
+          alt="3.1"
+        />
+        <img
+          style={{ width: "50%" }}
+          src="images/yen_bai/final/2.2.jpg"
+          alt="3.2"
+        />
       </div>
 
       <p style={{ padding: "0 300px" }}>
@@ -34,8 +46,16 @@ const Body = ({ lang }) => {
       </p>
 
       <div style={{ display: "flex" }}>
-        <img style={{ width: "50%" }} src="images/yen_bai/3.1.jpg" alt="3.1" />
-        <img style={{ width: "50%" }} src="images/yen_bai/3.2.jpg" alt="3.2" />
+        <img
+          style={{ width: "50%" }}
+          src="images/yen_bai/final/3.1.jpg"
+          alt="3.1"
+        />
+        <img
+          style={{ width: "50%" }}
+          src="images/yen_bai/final/3.2.jpg"
+          alt="3.2"
+        />
       </div>
 
       <p style={{ padding: "0 300px" }}>
@@ -45,8 +65,16 @@ const Body = ({ lang }) => {
       </p>
 
       <div style={{ display: "flex" }}>
-        <img style={{ width: "50%" }} src="images/yen_bai/4.1.jpg" alt="4.1" />
-        <img style={{ width: "50%" }} src="images/yen_bai/4.2.jpg" alt="4.2" />
+        <img
+          style={{ width: "50%" }}
+          src="images/yen_bai/final/4.1.jpg"
+          alt="4.1"
+        />
+        <img
+          style={{ width: "50%" }}
+          src="images/yen_bai/final/4.2.jpg"
+          alt="4.2"
+        />
       </div>
 
       <p style={{ padding: "0 300px" }}>
@@ -58,17 +86,17 @@ const Body = ({ lang }) => {
       <div style={{ display: "flex" }}>
         <img
           style={{ width: "33.333%" }}
-          src="images/yen_bai/5.1.jpg"
+          src="images/yen_bai/final/5.1.jpg"
           alt="5.1"
         />
         <img
           style={{ width: "33.333%" }}
-          src="images/yen_bai/5.2.jpg"
+          src="images/yen_bai/final/5.2.jpg"
           alt="5.2"
         />
         <img
           style={{ width: "33.333%" }}
-          src="images/yen_bai/5.3.jpg"
+          src="images/yen_bai/final/5.3.jpg"
           alt="5.3"
         />
       </div>
@@ -83,7 +111,7 @@ const Body = ({ lang }) => {
         <audio controls autoPlay={false} style={{ position: "absolute" }}>
           <source src="/cheo/audios/loa_phat_thanh.m4a" type="audio/ogg" />
         </audio>
-        <img width="100%" src={"/cheo/images/yen_bai/6.jpg"} alt="6" />
+        <img width="100%" src={"/cheo/images/yen_bai/final/6.jpg"} alt="6" />
       </div>
 
       <p style={{ padding: "0 300px" }}>
@@ -92,7 +120,7 @@ const Body = ({ lang }) => {
           : `Với Mua, biến đổi khí hậu dần rõ nét hơn theo thời gian. Trong ký ức có phần đã mờ nhạt, Mua nhớ em và cha mẹ vội từ căn chòi dựng tạm trên núi vào rừng sâu vì một trận lũ lớn bất ngờ ập đến khi em chỉ mới 4 tuổi.  Điều này lặp lại tương tự sau 12 năm, nhưng lúc này Mua đang học đại học ở thủ đô, chỉ nghe mẹ em thuật lại qua điện thoại. Đến khi bắt tay với Ná Nả, dành thời gian hơn cho dự án cộng đồng ở quê hương, em mới thấy rõ nét hơn sự nứt rạn của những thửa ruộng không nước nơi quê em, sự lở loét của những mảng đất sạt lở,  sự mù mịt của những chuyến đi kiếm việc làm nơi biên giới nguy hiểm của những người phụ nữ trong cộng đồng em.`}
       </p>
 
-      <img width="100%" src={"/cheo/images/yen_bai/7.jpg"} alt="7" />
+      <img width="100%" src={"/cheo/images/yen_bai/final/7.jpg"} alt="7" />
 
       <p style={{ padding: "0 300px" }}>
         {isEnglish
@@ -101,8 +129,16 @@ const Body = ({ lang }) => {
       </p>
 
       <div style={{ display: "flex" }}>
-        <img style={{ width: "50%" }} src="images/yen_bai/8.1.jpg" alt="8.1" />
-        <img style={{ width: "50%" }} src="images/yen_bai/8.2.jpg" alt="8.2" />
+        <img
+          style={{ width: "50%" }}
+          src="images/yen_bai/final/8.1.jpg"
+          alt="8.1"
+        />
+        <img
+          style={{ width: "50%" }}
+          src="images/yen_bai/final/8.2.jpg"
+          alt="8.2"
+        />
       </div>
 
       <p style={{ padding: "0 300px" }}>
@@ -111,7 +147,7 @@ const Body = ({ lang }) => {
           : `Với Mua, em cũng chẳng bỡ ngỡ với những quyết định tự thân. Ngay từ bé, em đã thấy mình lạ lẫm so với các bạn đồng lứa. Trong những lần hiếm hoi nghĩ ngơi sau khi gặt lúa, em không tham gia tụ họp cùng bạn bè vui chơi mà thường chọn dạo bộ trong những mảnh rừng vắng, thả mình trên bãi cỏ, trong rặng cây, nói chuyện và cười đùa với chính mình. Em thích đi dạo một mình, có những hôm còn đi dạo 5-6km từ ruộng của gia đình về nhà. Em cũng chẳng để tâm đến chuyện cưới xin hay đi làm ở biên giới, bức tranh điển hình mà bạn bè em luôn nói với nhau khi họ bắt đầu bước vào giai đoạn dậy thì. `}
       </p>
 
-      <img width="100%" src={"/cheo/images/yen_bai/9.jpg"} alt="9" />
+      <img width="100%" src={"/cheo/images/yen_bai/final/9.jpg"} alt="9" />
 
       <p style={{ padding: "0 300px" }}>
         {isEnglish
@@ -122,12 +158,12 @@ const Body = ({ lang }) => {
       <div style={{ display: "flex" }}>
         <img
           style={{ width: "50%" }}
-          src="images/yen_bai/10.1.jpg"
+          src="images/yen_bai/final/10.1.jpg"
           alt="10.1"
         />
         <img
           style={{ width: "50%" }}
-          src="images/yen_bai/10.2.jpg"
+          src="images/yen_bai/final/10.2.jpg"
           alt="10.2"
         />
       </div>
@@ -160,9 +196,9 @@ export default function Home({}) {
         onVnClick={() => setLang("vn")}
       />
 
-      {/* <img width="100%" src={"/cheo/images/yen_bai/bia.jpg"} alt="opening" />*/}
+      {/* <img width="100%" src={"/cheo/images/yen_bai/final/bia.jpg"} alt="opening" />*/}
       <Banner
-        url={`/cheo/images/yen_bai/bia.jpg`}
+        url={`/cheo/images/yen_bai/final/bia.jpg`}
         isEnglish={isEnglish}
         enText={"Mu Cang Chai - Yen Bai"}
         viText={"Mù Cang Chải - Yên Bái"}
@@ -191,7 +227,7 @@ export default function Home({}) {
 //   >
 //     <img
 //       width="100%"
-//       src={"/cheo/images/yen_bai/bia.jpg"}
+//       src={"/cheo/images/yen_bai/final/bia.jpg"}
 //       alt="opening"
 //       style={{ verticalAlign: "middle" }}
 //     />
