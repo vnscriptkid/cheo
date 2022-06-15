@@ -20,7 +20,11 @@ const Body = ({ lang }) => {
           : `Nhiều năm về trước, giai đoạn Ninh Thuận trải qua cuộc khủng hoảng về nước tưới tiêu, hạn hán hoành hành, Quyền cùng gia đình phải vật lộn với nương rẫy, nên em hiểu giá trị của những cơn mưa đầu mùa hơn bao giờ hết.  Mưa làm cây cỏ tốt tươi hơn, khí hậu mát mẻ hơn, đặc biệt là khi nó xua đi sự oi bức đặc trưng ở một vùng đất mà nắng nóng bao trùm – Ninh Thuận. Với Quyền, đầu mùa mưa còn là những ngày em nóng lòng gieo trồng sau cơn hạn hán nắng gắt tháng Ba. Nhưng bây giờ, bối cảnh đã thay đổi, những cơn mưa xối xả kéo dài lại dấy lên trong lòng em nỗi bận tâm khác. `}
       </p>
 
-      <img width="100%" src={"/cheo/images/ninh-thuan/05-min.jpg"} alt="10" />
+      <img
+        width="100%"
+        src={"/cheo/images/ninh-thuan/final/05-min.jpg"}
+        alt="10"
+      />
 
       <p style={{ padding: "0 300px" }}>
         {isEnglish
@@ -31,12 +35,12 @@ const Body = ({ lang }) => {
       <div style={{ display: "flex" }}>
         <img
           style={{ width: "50%" }}
-          src="images/ninh-thuan/04-min.jpg"
+          src="images/ninh-thuan/final/04-min.jpg"
           alt="3.1"
         />
         <img
           style={{ width: "50%" }}
-          src="images/ninh-thuan/09-min.jpg"
+          src="images/ninh-thuan/final/09-min.jpg"
           alt="3.2"
         />
       </div>
@@ -48,7 +52,11 @@ const Body = ({ lang }) => {
 `}
       </p>
 
-      <img width="100%" src={"/cheo/images/ninh-thuan/01-min.jpg"} alt="01" />
+      <img
+        width="100%"
+        src={"/cheo/images/ninh-thuan/final/01-min.jpg"}
+        alt="01"
+      />
 
       <p style={{ padding: "0 300px" }}>
         {isEnglish
@@ -59,12 +67,12 @@ const Body = ({ lang }) => {
       <div style={{ display: "flex" }}>
         <img
           style={{ width: "50%" }}
-          src="images/ninh-thuan/06-min.jpg"
+          src="images/ninh-thuan/final/06-min.jpg"
           alt="3.1"
         />
         <img
           style={{ width: "50%" }}
-          src="images/ninh-thuan/07-min.jpg"
+          src="images/ninh-thuan/final/07-min.jpg"
           alt="3.2"
         />
       </div>
@@ -81,7 +89,7 @@ const Body = ({ lang }) => {
         </audio>
         <img
           style={{ width: "100%", verticalAlign: "middle" }}
-          src="/cheo/images/ninh-thuan/03-min.jpg"
+          src="/cheo/images/ninh-thuan/final/03-min.jpg"
           alt="03"
         />
       </div>
@@ -93,7 +101,11 @@ const Body = ({ lang }) => {
 `}
       </p>
 
-      <img width="100%" src={"/cheo/images/ninh-thuan/14-min.jpg"} alt="01" />
+      <img
+        width="100%"
+        src={"/cheo/images/ninh-thuan/final/14-min.jpg"}
+        alt="01"
+      />
 
       <p style={{ padding: "0 300px" }}>
         {isEnglish
@@ -104,12 +116,12 @@ const Body = ({ lang }) => {
       <div style={{ display: "flex" }}>
         <img
           style={{ width: "50%" }}
-          src="images/ninh-thuan/13-min.jpg"
+          src="images/ninh-thuan/final/13-min.jpg"
           alt="3.1"
         />
         <img
           style={{ width: "50%" }}
-          src="images/ninh-thuan/15-min.jpg"
+          src="images/ninh-thuan/final/15-min.jpg"
           alt="3.2"
         />
       </div>
@@ -120,7 +132,11 @@ const Body = ({ lang }) => {
           : `Cuộc sống của người Raglai truyền thống gần như chỉ thu hẹp trong khuôn khổ của các bur (xóm) hoặc palei (buôn làng) ở các khu đất cao, bằng phẳng và gần nguồn nước. Mỗi palei thường gồm vài chục nóc nhà của một dòng họ. Nông nghiệp nương rẫy là phương thức sản xuất chủ đạo với bắp và lúa là nguồn lương thực chính. Ngoài ra còn có các loại nông sản khác như đậu, khoai củ, hoa quả… Trâu, bò, heo, gà được nuôi thả phổ biến nhưng không nhiều. Mỗi nhà giữ cho mình đôi ba con bò để phục vụ cho ma chay lễ lượt. Khu vực địa lý của người Raglai ở Ninh Thuận nhiều sông ngòi. Chính những con sông, dòng suối là cung nước uống cho sinh hoạt và tưới tiêu sản xuất. Cùng với đó, nhiều hoạt động thủ công như đan lát, rèn, làm gốm… dù thô sơ nhưng cũng đủ đảm bảo cho sản xuất và sinh hoạt. Thế hệ ông bà, cha mẹ của Quyền, những người đến đây lập làng tuy có thiếu thốn nhưng chưa bao giờ đói, vì họ có rừng, có nương rẫy, có sông suối. Những đêm chăm chỉ giăng lưới đánh bắt hay những sáng hái rau trong rừng có thể đảm bảo cho họ các bữa cơm trong tuần và nuôi lớn con cái. Nhưng bối cảnh xã hội – kinh tế thay đổi lại đặt ra những thách thức mới, thế hệ của Quyền không thể chỉ đặt sự quan tâm vào bữa cơm hàng ngày như trước.`}
       </p>
 
-      <img width="100%" src={"/cheo/images/ninh-thuan/17-min.jpg"} alt="01" />
+      <img
+        width="100%"
+        src={"/cheo/images/ninh-thuan/final/17-min.jpg"}
+        alt="01"
+      />
 
       <p style={{ padding: "0 300px" }}>
         {isEnglish
@@ -131,12 +147,12 @@ const Body = ({ lang }) => {
       <div style={{ display: "flex" }}>
         <img
           style={{ width: "50%" }}
-          src="images/ninh-thuan/10-min.jpg"
+          src="images/ninh-thuan/final/10-min.jpg"
           alt="3.1"
         />
         <img
           style={{ width: "50%" }}
-          src="images/ninh-thuan/12-min.jpg"
+          src="images/ninh-thuan/final/12-min.jpg"
           alt="3.2"
         />
       </div>
@@ -153,7 +169,11 @@ const Body = ({ lang }) => {
           : `5h chiều thứ bảy, chiếc xe bus 45 chỗ đỗ xịch trước nhà Quyền. Em ngước vội nhìn ra trước nhà, nơi chị bạn thân thiết của mình là Nghiễm, đang sửa soạn hành lý lên xe. Chỉ sau 12 tiếng đồng hồ nữa thôi, Nghiễm sẽ có mặt tại thành phố, nơi mà cô kỳ vọng có thể tìm được công việc với mức lương cao gấp 5,6 lần công việc mà cô và Quyền đang làm ở Phước Bình, Ninh Thuận. Và cũng phải mất hơn cả nửa năm nữa, để họ có thể gặp nhau, tụ họp hàn huyên vào mỗi chiều như thường ngày. `}
       </p>
 
-      <img width="100%" src={"/cheo/images/ninh-thuan/16-min.jpg"} alt="01" />
+      <img
+        width="100%"
+        src={"/cheo/images/ninh-thuan/final/16-min.jpg"}
+        alt="01"
+      />
 
       <p style={{ padding: "0 300px" }}>
         {isEnglish
@@ -178,7 +198,7 @@ export default function Home({}) {
       />
 
       <Banner
-        url={`/cheo/images/ninh-thuan/08-min.jpg`}
+        url={`/cheo/images/ninh-thuan/final/08-min.jpg`}
         isEnglish={isEnglish}
         enText={"Phuoc Binh - Ninh Thuan"}
         viText={"Phước Bình - Ninh Thuận"}
