@@ -205,7 +205,7 @@ export default function Home({}) {
       />
 
       <video width="100%" className="videoTag" autoPlay loop muted>
-        <source src={"/cheo/videos/ninh-thuan/open.mp4"} type="video/mp4" />
+        <source src={"/cheo/videos/ninh-thuan/open-x.mp4"} type="video/mp4" />
       </video>
 
       <Body lang={lang} />
