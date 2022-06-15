@@ -247,23 +247,23 @@ ol {
 
 .home-slider-img-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/cheo/images/mu-cang-chai/_DSC0636.jpg");
+    url("/cheo/images/start-page/final/1.jpg");
 }
 
 .home-slider-img-2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/cheo/images/char/char_left.jpg");
+    url("/cheo/images/start-page/final/2.jpg");
 }
 
 .home-slider-img-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/cheo/images/char/char_middle.jpg");
+    url("/cheo/images/start-page/final/3.jpg");
   background-position: bottom 0 right 30%;
 }
 
 .home-slider-img-4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/cheo/images/char/char_right.jpg");
+    url("/cheo/images/start-page/final/4.jpg");
   background-position: bottom 0 right 30%;
 }
 
