@@ -24,7 +24,7 @@ const About = ({ lang }) => {
 
       <img
         width="100%"
-        src={"/cheo/images/hue-story/13_fullscreen-min.JPG"}
+        src={"/cheo/images/hue-story/final/13_fullscreen-min.jpg"}
         alt="opening"
       />
 
@@ -60,12 +60,12 @@ const About = ({ lang }) => {
       <div style={{ display: "flex" }}>
         <img
           style={{ width: "50%" }}
-          src="images/hue-story/3.1-min.JPG"
+          src="images/hue-story/final/3.1-min.jpg"
           alt="3.1"
         />
         <img
           style={{ width: "50%" }}
-          src="images/hue-story/3.2-min.JPG"
+          src="images/hue-story/final/3.2-min.jpg"
           alt="3.2"
         />
       </div>
@@ -94,12 +94,12 @@ const About = ({ lang }) => {
       <div style={{ display: "flex" }}>
         <img
           style={{ width: "50%" }}
-          src="images/hue-story/1.2-min.JPG"
+          src="images/hue-story/final/1.2-min.jpg"
           alt="3.1"
         />
         <img
           style={{ width: "50%" }}
-          src="images/hue-story/2-min.JPG"
+          src="images/hue-story/final/2-min.jpg"
           alt="3.2"
         />
       </div>
@@ -128,15 +128,19 @@ const About = ({ lang }) => {
 
       <img
         style={{ width: "100%", verticalAlign: "middle" }}
-        src="images/hue-story/1.1-min.JPG"
+        src="images/hue-story/final/1.1-min.jpg"
         alt="1.1"
       />
       <img
         style={{ width: "100%", verticalAlign: "middle" }}
-        src="images/hue-story/5.1-min.JPG"
+        src="images/hue-story/final/5.1-min.jpg"
         alt="5.1"
       />
-      <img style={{ width: "100%" }} src="images/hue-story/6-min.JPG" alt="6" />
+      <img
+        style={{ width: "100%" }}
+        src="images/hue-story/final/6-min.jpg"
+        alt="6"
+      />
 
       <p style={{ padding: "0 300px" }}>
         {isEnglish
@@ -162,19 +166,19 @@ const About = ({ lang }) => {
         </audio>
         <img
           style={{ width: "100%", verticalAlign: "middle" }}
-          src="images/hue-story/4-min.JPG"
+          src="images/hue-story/final/4-min.jpg"
           alt="4"
         />
       </div>
       <div style={{ display: "flex" }}>
         <img
           style={{ width: "50%" }}
-          src="images/hue-story/5.2-min.JPG"
+          src="images/hue-story/final/5.2-min.jpg"
           alt="5.2"
         />
         <img
           style={{ width: "50%" }}
-          src="images/hue-story/5.1-min.JPG"
+          src="images/hue-story/final/5.1-min.jpg"
           alt="5.1"
         />
       </div>
@@ -193,7 +197,7 @@ const About = ({ lang }) => {
 
       <img
         style={{ width: "100%" }}
-        src="images/hue-story/11-min.JPG"
+        src="images/hue-story/final/11-min.jpg"
         alt="11"
       />
 
@@ -218,12 +222,12 @@ const About = ({ lang }) => {
       <div style={{ display: "flex" }}>
         <img
           style={{ width: "50%" }}
-          src="images/hue-story/12.1-min.JPG"
+          src="images/hue-story/final/12.1-min.jpg"
           alt="12.1"
         />
         <img
           style={{ width: "50%" }}
-          src="images/hue-story/12.2-min.JPG"
+          src="images/hue-story/final/12.2-min.jpg"
           alt="12.2"
         />
       </div>
@@ -245,29 +249,29 @@ const About = ({ lang }) => {
       <div style={{ display: "flex" }}>
         <img
           style={{ width: "50%" }}
-          src="images/hue-story/15-min.JPG"
+          src="images/hue-story/final/15-min.jpg"
           alt="15"
         />
         <img
           style={{ width: "50%" }}
-          src="images/hue-story/16-min.JPG"
+          src="images/hue-story/final/16-min.jpg"
           alt="16"
         />
       </div>
       <img
         style={{ width: "100%", verticalAlign: "middle" }}
-        src="images/hue-story/14_fullscreen-min.JPG"
+        src="images/hue-story/final/14_fullscreen-min.jpg"
         alt="14"
       />
       <div style={{ display: "flex" }}>
         <img
           style={{ width: "50%" }}
-          src="images/hue-story/17.1-min.JPG"
+          src="images/hue-story/final/17.1-min.jpg"
           alt="15"
         />
         <img
           style={{ width: "50%" }}
-          src="images/hue-story/17.2-min.JPG"
+          src="images/hue-story/final/17.2-min.jpg"
           alt="16"
         />
       </div>
@@ -321,7 +325,7 @@ export default function Home({}) {
         onVnClick={() => setLang("vn")}
       />
       <Banner
-        url={`/cheo/images/hue-story/opening-min.JPG`}
+        url={`/cheo/images/hue-story/final/opening-min.jpg`}
         isEnglish={isEnglish}
         enText={"Nam Dong - Hue"}
         viText={"Nam Đông - Huế"}
