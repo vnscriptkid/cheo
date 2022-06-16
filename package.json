@@ -5,9 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export && touch ./out/.nojekyll",
-    "start": "next start",
+    "start": "next start -p 8080",
     "lint": "next lint",
-    "deploy": "gh-pages -d out -t true"
+    "deploy": "gh-pages -d out -t true",
+    "deploy:gh": "npm run build && gh-pages -d out -t true",
+    "build:gcp": "rm -rf ./build && NODE_ENV=production next build",
+    "deploy:gcp": "npm run build:gcp && gcloud app deploy"
   },
   "dependencies": {
     "gh-pages": "^3.2.3",

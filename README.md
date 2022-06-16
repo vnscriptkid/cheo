@@ -20,3 +20,5 @@ npm run build
 ## Ref:
 
 - https://dev.to/jameswallis/deploying-a-next-js-app-to-github-pages-24pn
+- https://github.com/vercel/next.js/discussions/12474
+- https://www.iloveimg.com/
