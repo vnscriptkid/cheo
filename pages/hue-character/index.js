@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import Banner from "../shared/Banner";
 import Header from "../shared/Header";
 
@@ -9,8 +9,13 @@ const About = ({ lang }) => {
     <div className="">
       <p style={{ padding: "0 300px" }}>
         {isEnglish
-          ? `Thanks to this morning’s early autumn rain in Doi Hamlet (Nam Dong District, Thua Thien Hue), the sun was blessing us with lowered light softer than usual. Thu’s steps quickened despite the heavy load of firewood burdening her shoulders. Thu’s sister-in-law walked before her, her steps steady as she crossed the streambed, trying to make her way through before dusk. Suddenly the whirlpool intensified, and its currents grew more rapid. Thu looked far beyond, trying to figure out what could be the matter. Her sister-in-law turned to her, “The hydropower plant is draining! Hurry up! It’s getting dangerous.” Not so long after, the water rose to above their knees, then higher, and soon reached her waist. Thu was worried though she had been in this situation before. Their feet scurried, making stumbling on sharp rocks unavoidable.`
-          : `Mặt trời hôm nay ở thôn Dỗi (huyện Nam Đông, Thừa Thiên Huế) dịu nhẹ hơn thường lệ nhờ cơn mưa đầu thu ban sáng. Thu rảo bước nhanh hơn dù gánh củi trên vai vun đầy. Chị dâu của em đi trước, đôi bàn chân băng suối đều đặn trước khi trời sập tối. Vòng xoáy nước chợt mạnh hơn lúc đầu giờ, nhịp điệu dồn dập dần, Thu phóng mắt nhìn xa, đoán định xem điều gì bất thường đang xảy ra. Chị dâu em quay sang:”Thủy điện xả nước, đi nhanh kẻo nguy hiểm.” Không lâu sau, nước đã cao lên trên cả gối, rồi dần lại cao hơn nữa, mấy chốc đã lên đến ngang hông. Thu lo lắng, dù đã từng băng suối khi thủy điện xả nước bất ngờ. Bước chân hai chị em vội vã hơn, chẳng tránh được việc vấp phải đá nhọn dưới nước.`}
+          ?
+          <Fragment>
+            Thanks to this morning’s early autumn rain in Doi Hamlet (Nam Dong District, Thua Thien Hue), the sun was blessing us with lowered light softer than usual. Thu’s steps quickened despite the heavy load of firewood burdening her shoulders. Thu’s sister-in-law walked before her, her steps steady as she crossed the streambed, trying to make her way through before dusk. Suddenly the whirlpool intensified, and its currents grew more rapid. Thu looked far beyond, trying to figure out what could be the matter. Her sister-in-law turned to her, <em>“The hydropower plant is draining! Hurry up! It’s getting dangerous”</em>. Not so long after, the water rose to above their knees, then higher, and soon reached her waist. Thu was worried though she had been in this situation before. Their feet scurried, making stumbling on sharp rocks unavoidable.
+          </Fragment>
+          : <Fragment>
+            Mặt trời hôm nay ở thôn Dỗi (huyện Nam Đông, Thừa Thiên Huế) dịu nhẹ hơn thường lệ nhờ cơn mưa đầu thu ban sáng. Thu rảo bước nhanh hơn dù gánh củi trên vai vun đầy. Chị dâu của em đi trước, đôi bàn chân băng suối đều đặn trước khi trời sập tối. Vòng xoáy nước chợt mạnh hơn lúc đầu giờ, nhịp điệu dồn dập dần, Thu phóng mắt nhìn xa, đoán định xem điều gì bất thường đang xảy ra. Chị dâu em quay sang: <em>“Thủy điện xả nước, đi nhanh kẻo nguy hiểm”</em>. Không lâu sau, nước đã cao lên trên cả gối, rồi dần lại cao hơn nữa, mấy chốc đã lên đến ngang hông. Thu lo lắng, dù đã từng băng suối khi thủy điện xả nước bất ngờ. Bước chân hai chị em vội vã hơn, chẳng tránh được việc vấp phải đá nhọn dưới nước.
+          </Fragment>}
       </p>
 
       <img
