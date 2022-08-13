@@ -143,8 +143,10 @@ ol {
 
 /* Position text in the middle of the page/image */
 .bg-text {
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
   font-size: 80px;
@@ -258,7 +260,7 @@ ol {
 .home-slider-img-3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("/cheo/images/start-page/final/3.jpg");
-  background-position: bottom 0 right 30%;
+  background-position: bottom 0 right 40%;
 }
 
 .home-slider-img-4 {

@@ -291,8 +291,8 @@ const About = () => {
                 <li>Producer: Alex Nguyen</li>
                 <li>Web Solution Architect: Nguyen Trung Thanh</li>
                 <li>Translator: Hoang Nguyen Minh Anh</li>
-                <li>Photography Advisor: Anne</li>
-                <li>Technical Support: Duong Thanh Quang</li>
+                <li>Photography Advisor: Anne Wernikoff</li>
+                {/* <li>Technical Support: Duong Thanh Quang</li> */}
                 <li>
                   The project is financed by Future Rising Fellow Fund 2021.
                 </li>
@@ -309,11 +309,11 @@ const About = () => {
               <ul style={{ paddingLeft: 20 }}>
                 <li>Chịu trách nhiệm sản xuất: Alex Nguyen</li>
                 <li>
-                  <strong>Kiến trúc giải pháp Web:</strong> Nguyễn Trung Thành
+                  Kiến trúc giải pháp Web: Nguyễn Trung Thành
                 </li>
                 <li>Dịch thuật: Hoàng Nguyễn Minh Anh</li>
-                <li>Cố vấn hình ảnh: Anne</li>
-                <li>Hỗ trợ kỹ thuật: Dương Thanh Quang </li>
+                <li>Cố vấn hình ảnh: Anne Wernikoff</li>
+                {/* <li>Hỗ trợ kỹ thuật: Dương Thanh Quang </li> */}
                 <li>
                   Dự án nằm trong khuôn khổ tài trợ của quỹ Future Rising Fellow
                   2021
