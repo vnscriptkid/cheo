@@ -92,9 +92,9 @@ const Body = ({ lang }) => {
       </p>
 
       <div>
-        {/* <audio controls autoPlay={false} style={{ position: "absolute" }}>
-          <source src="/cheo/audios/ninh-thuan.m4a" type="audio/ogg" />
-        </audio> */}
+        <audio controls autoPlay={false} style={{ position: "absolute" }}>
+          <source src="/cheo/vidau/ninhthuan.m4a" type="audio/ogg" />
+        </audio>
         <img
           style={{ width: "100%", verticalAlign: "middle" }}
           src="/cheo/images/ninh-thuan/final/03-min.jpg"

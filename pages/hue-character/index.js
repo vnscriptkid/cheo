@@ -96,15 +96,20 @@ const About = ({ lang }) => {
           : `Sự biến chuyển bất ngờ mà khí hậu diễn ra ở Nam Đông không chỉ đặt ra những thách thức về thu nhập với Thu, mà hơn cả còn là sự an toàn của người dân trong thôn. Đường trơn trượt, hay sạt lở khiến những ngày đi làm rẫy với chị em ở thôn Dỗi ngày càng khó khăn. Những lần đi lấy củi vất vả hơn, khi nước từ thủy điện xả xuống đột ngột, hoặc chị em dễ bị kẹt lại ở rừng lúc gặp mưa lớn, nước dâng cao. Thu còn nhiều nỗi lo hơn khi em đã là một người mẹ của cô con gái 4 tuổi, và là đồng trụ cột của gia đình nhỏ. Cứ đến mùa lũ lụt, em lại lo sợ mảnh đất sát bờ sông sau nhà sạt lở, không chỉ mất trắng thửa khoai mì trồng dở, mà còn nguy hiểm đến tính mạng của các thành viên trong gia đình. Hay những đêm bão to, vì nhà dễ bị tốc mái và dột, em phải cùng chồng gói ghém chút đồ đạc, chạy qua căn nhà vững chắc hơn của chị chồng em phía bên kia đường. Sau bão, cả gia đình mới dám về nhà.`}
       </p>
 
-      <div>
+      <div >
+        <video width="100%" height="700px" /*height="300"*/ controls>
+          <source src="/cheo/vidau/hue.mp4" type="video/mp4" />
+          <source src="movie.ogg" type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
         {/* <audio controls autoPlay={false} style={{ position: "absolute" }}>
           <source src="/cheo/audios/hue.m4a" type="audio/ogg" />
         </audio> */}
-        <img
+        {/* <img
           style={{ width: "100%", verticalAlign: "middle" }}
           src="images/hue-story/final/4-min.jpg"
           alt="4"
-        />
+        /> */}
       </div>
       <div style={{ display: "flex" }}>
         <img

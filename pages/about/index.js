@@ -198,7 +198,7 @@ const About = () => {
                 send my sincerest gratitude to:{" "}
               </p>
               <ul style={{ paddingLeft: 20, lineHeight: 1.8 }}>
-                <li> Miss Anne - my photography mentor.</li>
+                <li>Mrs. Anne Wernikoff - my photography mentor.</li>
                 <li>
                   Girl Rising - Future Rising Fellowship for providing financial
                   support for my project.
@@ -288,7 +288,7 @@ const About = () => {
             <div style={{ lineHeight: 2 }}>
               <h3 style={{ textAlign: "center" }}>Project Team</h3>
               <ul style={{ paddingLeft: 20 }}>
-                <li>Producer: Alex Nguyen</li>
+                <li>Producer: <a style={{ color: '#99ccff' }} href="https://nhuquynh27100.wixsite.com/alex/contact">Alex Nguyen</a></li>
                 <li>Web Solution Architect: Nguyen Trung Thanh</li>
                 <li>Translator: Hoang Nguyen Minh Anh</li>
                 <li>Photography Advisor: Anne Wernikoff</li>
@@ -307,7 +307,8 @@ const About = () => {
             <div style={{ lineHeight: 2 }}>
               <h3 style={{ textAlign: "center" }}>Đội ngũ thực hiện:</h3>
               <ul style={{ paddingLeft: 20 }}>
-                <li>Chịu trách nhiệm sản xuất: Alex Nguyen</li>
+                <li>Chịu trách nhiệm sản xuất: {` `}
+                  <a style={{ color: '#99ccff' }} href="https://nhuquynh27100.wixsite.com/alex/contact">Alex Nguyen</a></li>
                 <li>
                   Kiến trúc giải pháp Web: Nguyễn Trung Thành
                 </li>

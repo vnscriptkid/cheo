@@ -118,6 +118,12 @@ const Body = ({ lang }) => {
           <source src="/cheo/audios/loa_phat_thanh.m4a" type="audio/ogg" />
         </audio> */}
         <img width="100%" src={"/cheo/images/yen_bai/final/6.jpg"} alt="6" />
+        {/* <video autoPlay src={"/cheo/vidau/yenbai.MOV"} /> */}
+        <video width="100%" height="700px" controls>
+          <source src="/cheo/vidau/yenbai.MOV" type="video/mp4" />
+          <source src="movie.ogg" type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
       </div>
 
       <p style={{ padding: "0 300px" }}>
